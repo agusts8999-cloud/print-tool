@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+
+build-exe/
+dist-exe/
+spec-exe/
+
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+node_modules/
+dist/

@@ -1,0 +1,32 @@
+{
+  "name": "printer-tool",
+  "version": "1.0.0",
+  "description": "CLI tool to print image files to label or ESC/POS printers via USB or Windows driver",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "dev": "tsx src/main.ts"
+  },
+  "keywords": [
+    "printer",
+    "escpos",
+    "label",
+    "usb",
+    "windows"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "pdf-to-printer": "^5.6.0",
+    "pdfkit": "^0.15.0",
+    "sharp": "^0.34.2",
+    "usb": "^2.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/pdfkit": "^0.17.3",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
